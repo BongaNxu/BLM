@@ -25,7 +25,7 @@
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='#'>cookie policy</a>.",
     "google-analytics": "",
     "versionFirst": "3.11.1",
-    "uniqCompNum": 17,
+    "uniqCompNum": 22,
     "versionPublish": "3.11.1"
   },
   "pages": {
@@ -142,7 +142,7 @@
                 "image": "@PROJECT_PATH@/assets/images/slider-3-2000x1333.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
+                "overlay": false,
                 "overlayOpacity": "0",
                 "contentAlign": "center",
                 "showTitle": false,
@@ -153,8 +153,8 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/slider-5-2000x1333.jpg",
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/slider-6-2000x1333.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -166,28 +166,13 @@
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/slider-1-2000x1090.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "overlayOpacity": "0",
-                "contentAlign": "center",
-                "showTitle": false,
-                "title": "FULL SCREEN SLIDER",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ],
             "fullScreen": true,
             "bgColor": "#fff",
             "showBullets": true
           },
-          "_anchor": "slider-4",
+          "_anchor": "slider-k",
           "articleLayout": false
         },
         {
@@ -211,7 +196,7 @@
             "bgColor": "#fff",
             "showMeta": true
           },
-          "title": "Our Products",
+          "title": "<span style=\"font-weight: normal;\">Our</span> <span style=\"font-weight: normal;\">Products</span>",
           "meta": "<span style=\"font-style: normal;\">Every BLM Naturals products contains Moringa Oil Extract, a rich <br>mosturising agent to keep your hair hydrated.</span>"
         },
         {
@@ -225,9 +210,24 @@
             "paddingBottom": "4",
             "bgColor": "#fff"
           },
-          "text1": "<b>NATURAL INGREDIENTS</b><p>&nbsp;<br>&nbsp;sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</p>",
-          "text2": "<b>MORINGA EXTRACTS</b><p><br></p><p>&nbsp;L<span style=\"font-size: 1.07rem; line-height: 1.5;\">orem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</span></p>",
-          "text3": "<p><b>GREAT AROMA</b>&nbsp;</p><p><br></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</p>"
+          "text1": "<b>NATURAL INGREDIENTS</b><p>&nbsp;<br>Lorem ipsum nissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</p>",
+          "text2": "<b>MORINGA EXTRACTS</b><p><br></p><p>Lorem ipsum nissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</p>",
+          "text3": "<p><b>GREAT AROMA</b>&nbsp;</p><p><br></p><p>Lorem ipsum nissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-i",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "4",
+            "bgColor": "#fff"
+          },
+          "text1": "<p><b>NATURAL SOFT HAIR</b></p><p><br></p><p>Lorem ipsum nissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</p>",
+          "text2": "<b>INTENSIVE HYDRATION</b><p></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Lorem ipsum nissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</span><br></p>",
+          "text3": "<p></p>"
         },
         {
           "_styles": {
@@ -241,8 +241,8 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-b",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "5",
+            "paddingBottom": "5",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
@@ -253,14 +253,14 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
+            "overlayOpacity": "0.9",
+            "overlayColor": "#28324e",
             "showTitle": true,
             "showText": true,
             "showButton": false
           },
           "title": "<span style=\"font-weight: normal;\">Why BLM Naturals is for You?</span>",
-          "text": "<p>Natural Ingredients</p>",
+          "text": "",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {
@@ -343,8 +343,8 @@
             "showName": true,
             "showBio": true
           },
-          "title": "OUR LATEST THOUGHTS",
-          "subtitle": "BLOG ROLL - APRIL 2017",
+          "title": "<span style=\"font-weight: normal;\">What our fantastic users say</span>",
+          "subtitle": "Testimonials - April 2017",
           "_styles": {
             ".mbr-section-subtitle": {
               "font-family": "'Lato', sans-serif",
@@ -397,7 +397,7 @@
             "showText": true,
             "showButton": false
           },
-          "title": "ABOUT US",
+          "title": "<span style=\"font-weight: normal;\">About Us</span>",
           "text": "<p>&nbsp; &nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit. &nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</p><p>&nbsp; &nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit. &nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</p><p>&nbsp; &nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit. &nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</p><p>&nbsp; &nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit. &nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
