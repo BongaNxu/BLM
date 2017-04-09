@@ -25,7 +25,7 @@
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='#'>cookie policy</a>.",
     "google-analytics": "",
     "versionFirst": "3.11.1",
-    "uniqCompNum": 15,
+    "uniqCompNum": 17,
     "versionPublish": "3.11.1"
   },
   "pages": {
@@ -70,13 +70,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -95,7 +95,7 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-0",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -124,7 +124,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">PRODUCTS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">BLOG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ABOUT US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PRODUCTS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Shampoo</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Conditioner</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Pudding</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Spray</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials1-c\">BLOG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-e\">ABOUT US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_tags": [
@@ -400,6 +400,125 @@
           "title": "ABOUT US",
           "text": "<p>&nbsp; &nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit. &nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</p><p>&nbsp; &nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit. &nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</p><p>&nbsp; &nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit. &nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</p><p>&nbsp; &nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit. &nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis facilis id quia, dignissimos quas ad quos odio natus consequuntur temporibus in aspernatur possimus voluptatum? Quo consequuntur, aut facilis adipisci velit.</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-f",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/web-logo-265x109.png",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "Every BLM Naturals products contains Moringa Oil Extract, a rich mosturising agent to keep your hair hydrated.<br>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text2": "+1 (0) 000 0000 001 or +1 (0) 000 0000 002",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "map-pin",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text3": "1234 Street Name, City AA 99999",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text4": "<p><a href=\"mailto:info@blm.com\">info@blm.com</a><a href=\"mailto:support@mobirise.com\"></a></p>",
+          "title1": "Navigation",
+          "text5": "<li><a href=\"#\">Home</a><a class=\"text-white\" href=\"#\"></a></li><li><a href=\"#\">Products</a><a class=\"text-white\" href=\"#\"></a></li><li><a href=\"#\">Blog</a><a class=\"text-white\" href=\"#\"></a></li><li><a href=\"#\">About Us</a><a class=\"text-white\" href=\"#\"></a></li><li><a href=\"#\">Contact Us</a><a class=\"text-white\" href=\"#\"></a></li>",
+          "text6": "<p><strong>Contacts</strong><br>Email: <a href=\"mailto:info@blm.com\">info@blm.com</a><br>Phone: +1 (0) 000 0000 001<br>Fax: +1 (0) 000 0000 002<br><br><br><strong>Address</strong><br>1234 Street Name<br>City, AA 99999</p>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "benxumalo@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-g",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Black Like Me."
         }
       ]
     }
